@@ -6,67 +6,72 @@
   <title>Contact Us</title>
   <style>
     body {
-        background-image: url(image.png);
+      background-image: url(image.png);
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
-      text-align: center;
       min-height: 100vh;
       margin: 0;
       font-family: Arial, sans-serif;
     }
 
-    background-color: #212121;
-        padding: 25px 35px;
-        display: flex;
-        align-items: center;
-        
-        
+    nav {
+      background-color: #212121;
+      padding: 25px 35px;
+      display: flex;
+      align-items: center;
     }
 
     nav a {
-        color: red;
-        font-size: 25px;
-        margin-right: 35px;
-        
+      color: red;
+      font-size: 25px;
+      margin-right: 35px;
     }
 
     nav .right {
-        margin-left: auto;
+      margin-left: auto;
     }
 
     nav a:hover {
-        color: white;
-        text-decoration: none;
-        
+      color: white;
+      text-decoration: none;
     }
 
     h1, h2 {
       margin: 10px 0;
     }
+
+    
+    .content {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
 
- <!-- NAVIGATION -->
-    <nav style="margin-left: -200px; margin-right: -7px; margin-top: -15px;">
-        <a href="https://kaizer090.github.io/ValorantPage1/">HOME</a>
-        <a href="https://kaizer090.github.io/ValorantPage2/">AGENTS</a>
-        <a href="https://kaizer090.github.io/ValorantPage3/">MAPS</a>
-        <a href="https://kaizer090.github.io/ValorantPage4/">WEAPONS</a>
-        <a href="https://kaizer090.github.io/ValorantPage5/">STRATEGIES</a>
-        <a href="https://kaizer090.github.io/ValorantPage6/">CONTACT US</a>
-        <a href="https://playvalorant.com/en-us/platform-selection/" class="right">PLAY NOW</a>
-    </nav>
+  <nav>
+    <a href="https://kaizer090.github.io/ValorantPage1/">HOME</a>
+    <a href="https://kaizer090.github.io/ValorantPage2/">AGENTS</a>
+    <a href="https://kaizer090.github.io/ValorantPage3/">MAPS</a>
+    <a href="https://kaizer090.github.io/ValorantPage4/">WEAPONS</a>
+    <a href="https://kaizer090.github.io/ValorantPage5/">STRATEGIES</a>
+    <a href="https://kaizer090.github.io/ValorantPage6/">CONTACT US</a>
+    <a href="https://playvalorant.com/en-us/platform-selection/" class="right">PLAY NOW</a>
+  </nav>
 
-  <h1>CONTACT US!</h1>
+  <div class="content">
+    <h1>CONTACT US!</h1>
+    <h2>Got more suggestion? REACH OUT!</h2>
+    <h2>Email: ValorantHub@gmail.com</h2>
+    <h2>Facebook: Valorant Hub</h2>
 
-  <h2>Got more suggestion? REACH OUT!</h2>
-  <h2>Email: ValorantHub@gmail.com</h2>
-  <h2>Facebook: Valorant Hub</h2>
+    <h1>Community Page that you can play with others?</h1>
+    <h2>Discord: <a href="https://discord.gg/valorantph" target="_blank" title="discord-link">Join Here</a></h2>
+  </div>
 
-  <h1>Community Page that you can play with others?</h1>
-  <h2>Discord: <a href="https://discord.gg/valorantph" target="_blank" title="discord-link">Join Here</a></h2>
 </body>
 </html>
